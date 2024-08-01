@@ -10,11 +10,11 @@ import java.util.Scanner;
 Scanner sc=new Scanner(System.in);
 
 System.out.println("enter name of publication");
-    String title= sc.nextLine();
+     title= sc.nextLine();
     System.out.println("enter no of copies");
-    int copies =sc.nextInt();
+     copies =sc.nextInt();
     System.out.println("enter price");
-    int price =sc.nextInt();
+     price =sc.nextInt();
 }
 
   void display(){
@@ -40,9 +40,9 @@ int total;
       void orderdcopies(){
     Scanner sc =new Scanner(System.in);
 System.out.println("enter name of the author");
-     String author=sc.nextLine();
+      author=sc.nextLine();
      System.out.println("no of copies ordred");
-     int total=sc.nextInt();
+      total=sc.nextInt();
 
 
       }
@@ -67,7 +67,7 @@ System.out.println("stock remaining"+(this.copies-total));
 Scanner sc= new Scanner(System.in);
 
       System.out.println("enter no of copies ordred");
-      int quantity=sc.nextInt();
+       quantity=sc.nextInt();
 
 
       }
@@ -88,7 +88,7 @@ Scanner sc= new Scanner(System.in);
 
       void  salecopy(){
         Scanner sc= new Scanner(System.in);
-         int orders =sc.nextInt();
+          orders =sc.nextInt();
         System.out.println("total magzine"+this.title+"sold"+orders);
 
       }
