@@ -28,13 +28,13 @@ public class complex {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
      System.out.println("enter first real no");
-      int i=sc.nextInt();
+       i=sc.nextInt();
       System.out.println("enter first imaginary no");
-      int j =sc.nextInt();
+       j =sc.nextInt();
       System.out.println("enter second real no");
-      int k=sc.nextInt();
+       k=sc.nextInt();
       System.out.println("enter second imaginary");
-      int l=sc.nextInt();
+       l=sc.nextInt();
 
       complexno n= new complexno(i,j,k,l);
       n.add();
