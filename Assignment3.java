@@ -61,7 +61,7 @@ void GetEmployeeDetails(){
         Scanner sc =new Scanner (System.in);
         void basic_pay(){
             System.out.println("enter basic pay");
-        int BP=sc.nextInt();
+         BP=sc.nextInt();
         }
 }
 
