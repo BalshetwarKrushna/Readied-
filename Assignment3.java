@@ -14,17 +14,17 @@ class Employee{
 
 void GetEmployeeDetails(){
     System.out.println("enter name of employee");
-      String name=sc.nextLine();
+       name=sc.nextLine();
 
       System.out.println("enter empid of employee");
-      int Empid=sc.nextInt();
+       Empid=sc.nextInt();
 
       sc.nextLine();
       System.out.println("enter addresss of employee");
       String address=sc.nextLine();
 
       System.out.println("enter mobile no of employee");
-      int mobileno=sc.nextInt();
+       mobileno=sc.nextInt();
 
     
     
@@ -69,7 +69,7 @@ void GetEmployeeDetails(){
     Scanner sc=new Scanner(System.in);
     void basic_pay(){
         System.out.println("enter basic pay");
-        int BP=sc.nextInt();
+         BP=sc.nextInt();
 
     }
    }
@@ -79,7 +79,7 @@ void GetEmployeeDetails(){
         Scanner sc =new Scanner (System.in);
         void basic_pay(){
             System.out.println("enter basic pay");
-        int BP=sc.nextInt();
+         BP=sc.nextInt();
         }
 }
 
@@ -87,7 +87,7 @@ void GetEmployeeDetails(){
     Scanner sc=new Scanner(System.in);
     void basic_pay(){
         System.out.println("enter basic pay");
-        float BP=sc.nextFloat();
+         BP=sc.nextFloat();
         
     }
    }
