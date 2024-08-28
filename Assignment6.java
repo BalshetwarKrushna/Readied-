@@ -48,7 +48,7 @@ System.out.println("division of two number"+num1+"and"+num2+"is"+Division(Intege
 		}
 
 	}
-   public class ArrayException1 {
+  class ArrayException1 {
 		public void Array_Index_Bound() {
 			try {
 				Scanner sc=new Scanner(System.in);
@@ -67,7 +67,22 @@ System.out.println("division of two number"+num1+"and"+num2+"is"+Division(Intege
 		
 
 	}
-
+ class Nullpointer{
+	   
+	   public void NullpointerException() {
+	   try {
+		  System.out.println("enter value");
+		   Scanner sc=new Scanner(System.in);
+		   String b=sc.nextLine();
+		   
+		   System.out.println(b);
+	   }
+	   catch(NullpointerException e){
+		   System.out.println("nullpointer exception  is handle"+e);
+		   
+	   }
+   }
+   }
 
     
 public class Assignment6 {
@@ -78,6 +93,8 @@ public class Assignment6 {
          obj.ArthimaticException();
          ArrayException1 obj2 = new ArrayException1();
          obj2.Array_Index_Bound();
+         Nullpointer obj3=new Nullpointer();
+         obj3.NullpointerException();
 	}
 
 }
